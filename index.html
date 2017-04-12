@@ -4,7 +4,9 @@
 <head>
 	<meta charset="UTF-8">
   <title>Rachel's Portfolio</title>
-  <link rel="stylesheet" type="text/css" href="">
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 </head>
 
 <body>
@@ -16,38 +18,46 @@
 	  </div>
 
 	  <div class="nav">
-	  	<ul>
-	  		<li><a href="#index.html">About | </a></li>
-	  		<li><a href="#portfolio.html">Portfolio | </a></li>
-	  		<li><a href="#contact.html">Contact</a></li>
-	  	</ul>
+	  	<a class="link1" href="index.html">About</a>
+	  	<a class="link2" href="portfolio.html">Portfolio</a>
+	  	<a class="link3" href="contact.html">Contact</a>
 	  </div>
 
   </header>
 
   <section>
 
-  	<h1>About Me</h1>
-  	<img src="profile-img.png" alt="profile-img">
+  	<h2 class="about-title">About Me</h2>
+		
+		<div class="about-content">
 
-  	<p><strong>Hi! </strong>My name is Rachel, and I'm an aspiring web developer and lover of lists, books, cats, yoga, lifting, beer, and chocolate. In my spare time, you can find me at the gym, out on a hike on one of Austin's many fabulous trails, reading, binging Netflix, or cuddling with my cat, Kiki. I read tons of fiction and have recently been reading books focusing on women in tech (Reshma Saujani's "Women Who Don't Wait In Line" is a new favorite). I also tend to stand on my hands (in any way that's not a handstand - still working on that one!) when I think no one is looking.</p>
+	  	<img class=profile-img src="assets/images/profile-img.png" alt="profile-img">
 
-  	<p>I also have two degrees in English, both from Texas Tech. While I was working on my master's, I focused on Victorian literature, book history, and digital humanities. My advisor's husband was in tech comm and gave lectures to our classes, which inspired me to take an internship in the digital humanities lab, which inspired me to get more interested in tech, and here I am today - click around to find out more about me!</p>
+	  	<p><strong>Hi! </strong>My name is Rachel, and I'm an aspiring web developer and lover of lists, books, cats, yoga, lifting, beer, and chocolate. In my spare time, you can find me at the gym, out on a hike on one of Austin's many fabulous trails, reading, binging Netflix, or cuddling with my cat, Kiki. I read tons of fiction and have recently been reading books focusing on women in tech (Reshma Saujani's "Women Who Don't Wait In Line" is a new favorite). I also tend to stand on my hands (in any way that's not a handstand - still working on that one!) when I think no one is looking.</p>
+			<br>
+	  	<p>I also have two degrees in English, both from Texas Tech. While I was working on my master's, I focused on Victorian literature, book history, and digital humanities. My advisor's husband was in tech comm and gave lectures to our classes, which inspired me to take an internship in the digital humanities lab, which inspired me to get more interested in tech, and here I am today - click around to find out more about me!</p>
+
+  	</div>
 
   </section>
 
-  <aside>
-  	
-  	<h1>Connect with Me</h1>
-  	<img src="github-img.png" target="_blank" alt="github">
-  	<img src="linkedin-img.png" target="_blank" alt="linkedin">
-  	<img src="stackoverflow-img.png" target="_blank" alt="stackoverflow">
+	<div class="social">
 
-  </aside>
+	  <aside>
+	  	
+	  	<h1 class="connect-title">Connect with Me</h1>
+
+	  	<img class="contact-img1" src="assets/images/github-img.png" target="_blank" alt="github">
+	  	<img class="contact-img2" src="assets/images/linkedin-img.png" target="_blank" alt="linkedin">
+	  	<img class="contact-img3" src="assets/images/stackoverflow-img.png" target="_blank" alt="stackoverflow">
+
+	  </aside>
+
+  </div>
 
   <footer>
 
-  	&copy;Copyright2017 Rachel Vaughan
+  	<p>&copy;Copyright2017 Rachel Vaughan</p>
 
   </footer>
 

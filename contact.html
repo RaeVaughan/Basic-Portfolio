@@ -5,6 +5,7 @@
 	<meta charset="UTF-8">
   <title>Rachel's Portfolio</title>
   <link rel="stylesheet" type="text/css" href="">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
@@ -16,27 +17,44 @@
 	  </div>
 
 	  <div class="nav">
-	  	<ul>
-	  		<li><a href="#index.html">About | </a></li>
-	  		<li><a href="#portfolio.html">Portfolio | </a></li>
-	  		<li><a href="#contact.html">Contact</a></li>
-	  	</ul>
+	  	<a class="link1" href="index.html">About</a>
+	  	<a class="link2" href="portfolio.html">Portfolio</a>
+	  	<a class="link3" href="contact.html">Contact</a>
 	  </div>
 
+  </header>
+
+	<div class="social">
+
+	  <aside>
+	  	
+	  	<h1 class="connect-title">Connect with Me</h1>
+
+	  	<img class="contact-img1" src="assets/images/github-img.png" target="_blank" alt="github">
+	  	<img class="contact-img2" src="assets/images/linkedin-img.png" target="_blank" alt="linkedin">
+	  	<img class="contact-img3" src="assets/images/stackoverflow-img.png" target="_blank" alt="stackoverflow">
+
+	  </aside>
+
+  </div>
+
+	<div class="contact-form">
+		<h2 class="contact-title">Contact</h2>
+		<br>
+		<hr>
+		<br>
 	  <form>
 	  	
-	  	<p>Name</p>
-	  	<input type="text" name="name">
-	  	<br>
-	  	<p>Email</p>
-	  	<input type="text" name="email">
-	  	<br>
-	  	<p>Message</p>
-	  	<input type="text" name="message">
+	  	<label for="name">Name</label><br><br>
+	  	<input type="text" id="name" name="name"><br><br>
+	  	<label for="mail">Email</label><br><br>
+	  	<input type="email" id="mail" name="email"><br><br>
+	  	<label for="msg">Message</label><br><br>
+	  	<textarea id="msg" name="message"></textarea><br><br>
+	  	<button type="submit" id="button">Submit</button>
 
 	  </form>
-
-  </header>
+	</div>
 
   <footer>
   	&copy;Copyright2017 Rachel Vaughan
