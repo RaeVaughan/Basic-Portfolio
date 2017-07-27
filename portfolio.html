@@ -1,64 +1,72 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-	<meta charset="UTF-8">
-  <title>Rachel's Portfolio</title>
-  <link rel="stylesheet" type="text/css" href="">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<title>Rachel's Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-
 <body>
 
- <header>
+	<header id="header">
+		<div>
+			<a href="index.html" id="logo">Rachel Vaughan</a>
+				<nav>
+					<a href="index.html">About</a>
+					<a href="portfolio.html">Portfolio</a>
+					<a href="contact.html">Contact</a>
+				</nav>
+			</div>
+	</header>
 
-	  <div class="name">
-	  	<h1>Rachel Vaughan</h1>
-	  </div>
+	<div id="main-container" class="container">
 
-	  <div class="nav">
-	  	<a class="link1" href="index.html">About</a>
-	  	<a class="link2" href="portfolio.html">Portfolio</a>
-	  	<a class="link3" href="contact.html">Contact</a>
-	  </div>
+		<section class="content">
+			<h1>Portfolio</h1>
 
-  </header>
+			<div class="work">
+				<img src="assets/images/cat-1.jpg" class="auth-img" alt="Hangman">
+				<h3>Hangman</h3>
+			</div>
 
-	<aside id="social">
+			<div class="work">
+				<img src="assets/images/cat-2.jpg" class="auth-img" alt="RPG Game">
+				<h3>RPG Game</h3>
+			</div>
 
-	  	<h1 class="connect-title">Connect with Me</h1>
+			<div class="work">
+				<img src="assets/images/cat-3.jpg" class="auth-img" alt="Trivia Game">
+				<h3>Trivia Game</h3>
+			</div>
 
-	  	<br><hr>
+			<div class="work">
+				<img src="assets/images/cat-4.jpg" class="auth-img" alt="Rutgers Info Widget">
+				<h3>Rutgers Info Widget</h3>
+			</div>
 
-	  	<img class="contact-img" src="assets/images/github-img.png" target="_blank" alt="github">
-	  	<img class="contact-img" src="assets/images/linkedin-img.png" target="_blank" alt="linkedin">
-	  	<img class="contact-img" src="assets/images/stackoverflow-img.png" target="_blank" alt="stackoverflow">
+			<div class="work">
+				<img src="assets/images/cat-5.jpg" class="auth-img" alt="Rock Paper Scissors">
+				<h3>Rock Paper Scissors</h3>
+			</div>
 
-  </aside>
+		</section>
 
-	<div class="portfolio-box">
+		<section class="sidebar">
+			<div class="connect">
+				<h2>Connect with Me</h2>
 
-  <h1 class="portfolio-title">Portfolio</h1>
+				<img src="assets/images/github-img2.png" class="social" alt="Github">
+				<img src="assets/images/linkedin-img2.png" class="social" alt="LinkedIn">
+				<img src="assets/images/stackoverflow-img2.png" class="social" alt="Stack Overflow">
+				
+			</div>
+		</section>
+	</div>
 
-  <hr><br>
-
-	  <img class="portfolio-img" src="assets/images/cat-1.jpg" alt="cat-1">
-	  <p>Hangman</p>
-	  <img class="portfolio-img" src="assets/images/cat-2.jpg" alt="cat-2">
-	  <p>RPG Game</p>
-	  <img class="portfolio-img" src="assets/images/cat-3.jpg" alt="cat-3">
-	  <p>Trivia Game</p>
-	  <img class="portfolio-img" src="assets/images/cat-4.jpg" alt="cat-4">
-	  <p>Rutgers Info Widget</p>
-	  <img class="portfolio-img" src="assets/images/cat-5.jpg" alt="cat-5">
-	  <p>Rock Paper Scissors</p>
-
-  </div>
-
-  <footer>
-  	&copy;Copyright2017 Rachel Vaughan
-  </footer>
+	<footer>
+		<div class="container">
+			&copy;Copyright Rachel Vaughan 2017
+		</div>
+	</footer>
 
 </body>
-
 </html>

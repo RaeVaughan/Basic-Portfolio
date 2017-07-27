@@ -1,63 +1,67 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-	<meta charset="UTF-8">
-  <title>Rachel's Portfolio</title>
-  <link rel="stylesheet" type="text/css" href="">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<title>Rachel's Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-
 <body>
 
- <header>
+	<header id="header">
+		<div>
+			<a href="index.html" id="logo">Rachel Vaughan</a>
+				<nav>
+					<a href="index.html">About</a>
+					<a href="portfolio.html">Portfolio</a>
+					<a href="contact.html">Contact</a>
+				</nav>
+			</div>
+	</header>
 
-	  <div class="name">
-	  	<h1>Rachel Vaughan</h1>
-	  </div>
+	<div id="main-container" class="container">
 
-	  <div class="nav">
-	  	<a class="link1" href="index.html">About</a>
-	  	<a class="link2" href="portfolio.html">Portfolio</a>
-	  	<a class="link3" href="contact.html">Contact</a>
-	  </div>
+		<section class="content">
+			<h1>Contact</h1>
+			
+			<form id="contact-form">
+				<ul>
+					<li>
+						<label for="name">Name</label>
+						<input type="text" name="name" id="name" required="required">
+					</li>
 
-  </header>
+					<li>
+						<label for="email">Email</label>
+						<input type="text" name="email" id="email" required="required">
+					</li>
 
-	<aside id="social">
+					<li>
+						<label for="message">Message</label>
+						<textarea id="message" name="message" required="required"></textarea>
+					</li>
+				</ul>
+				<input type="submit" name="submit">
+			</form>
 
-	  	<h1 class="connect-title">Connect with Me</h1>
+		</section>
 
-	  	<br><hr>
+		<section class="sidebar">
+			<div class="connect">
+				<h2>Connect with Me</h2>
 
-	  	<img class="contact-img" src="assets/images/github-img.png" target="_blank" alt="github">
-	  	<img class="contact-img" src="assets/images/linkedin-img.png" target="_blank" alt="linkedin">
-	  	<img class="contact-img" src="assets/images/stackoverflow-img.png" target="_blank" alt="stackoverflow">
-
-  </aside>
-
-	<div class="contact-form">
-		<h2 class="contact-title">Contact</h2>
-		<br>
-		<hr>
-		<br>
-	  <form>
-	  	
-	  	<label for="name">Name</label><br><br>
-	  	<input type="text" id="name" name="name"><br><br>
-	  	<label for="mail">Email</label><br><br>
-	  	<input type="email" id="mail" name="email"><br><br>
-	  	<label for="msg">Message</label><br><br>
-	  	<textarea id="msg" name="message"></textarea><br><br>
-	  	<button type="submit" id="button">Submit</button>
-
-	  </form>
+				<img src="assets/images/github-img2.png" class="social" alt="Github">
+				<img src="assets/images/linkedin-img2.png" class="social" alt="LinkedIn">
+				<img src="assets/images/stackoverflow-img2.png" class="social" alt="Stack Overflow">
+				
+			</div>
+		</section>
 	</div>
 
-  <footer>
-  	&copy;Copyright2017 Rachel Vaughan
-  </footer>
+	<footer>
+		<div class="container">
+			&copy;Copyright Rachel Vaughan 2017
+		</div>
+	</footer>
 
 </body>
-
 </html>
